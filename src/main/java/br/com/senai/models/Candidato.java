@@ -1,6 +1,8 @@
 package br.com.senai.models;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 import br.com.senai.enuns.Genero;
 
@@ -13,5 +15,7 @@ public class Candidato {
    public String naturalidade;
    public String nacionalidade; 
    public Endereco endereco;
-
+   public List<Escolaridade> escolaridades = new ArrayList<>();
+   
+    
 }
